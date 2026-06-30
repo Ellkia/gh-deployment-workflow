@@ -15,14 +15,6 @@ https://ellkia.github.io/gh-deployment-workflow/
 3. GitHub Actions workflow triggers automatically
 4. Site is updated on GitHub Pages within 1-2 minutes
 
-## Project Structure
-gh-deployment-workflow/
-├── index.html              # Main page
-├── README.md               # This file
-└── .github/
-└── workflows/
-└── deploy.yml      # GitHub Actions workflow
-
 ## Deploy workflow
 The workflow is triggered only when `index.html` is modified:
 - Checks out the code
